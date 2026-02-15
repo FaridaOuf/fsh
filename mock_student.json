@@ -1,57 +1,67 @@
 [
   {
-    "id": "student_01",
+    "email": "alex_stressed@nyu.edu",
     "profile": {
       "name": "Alex Falcon",
-      "persona": "The Overwhelmed Academic"
+      "year": "Junior",
+      "major": "Computer Science"
     },
-    "brightspace": {
-      "assignments_due": [
-        { "title": "Math Problem Set", "due": "2026-02-16T10:00:00Z", "priority": "High" },
-        { "title": "History Essay", "due": "2026-02-16T23:59:00Z", "priority": "High" },
-        { "title": "Physics Lab", "due": "2026-02-17T09:00:00Z", "priority": "Medium" },
-        { "title": "CS Project", "due": "2026-02-18T23:59:00Z", "priority": "High" }
-      ]
-    },
-    "meal_plan": {
-      "swipes_remaining": 12,
-      "status": "Safe"
+    "platforms": {
+      "brightspace": {
+        "status": "High Workload",
+        "weekly_tasks": [
+          { "type": "Assignment", "item": "Operating Systems Lab", "due": "2026-02-17T23:59:00Z", "priority": "Urgent" },
+          { "type": "Reading", "item": "Distributed Systems Ch. 4", "course": "CS-301", "status": "Not Started" }
+        ]
+      },
+      "albert": {
+        "exam_schedule": [{ "course": "Discrete Math", "date": "2026-03-12", "location": "A6-001" }],
+        "registration_status": "Holds: None",
+        "gpa": "3.85"
+      },
+      "meal_plan": {
+        "swipes": 12,
+        "campus_dirhams": 345.00,
+        "flex_falcons": 84.00,
+        "analysis": "On Track"
+      },
+      "student_portal": {
+        "notifications": [
+          { "title": "Career Fair Prep", "date": "2026-02-18", "location": "C2" }
+        ]
+      }
     }
   },
   {
-    "id": "student_02",
+    "email": "jane_hungry@nyu.edu",
     "profile": {
       "name": "Jane Falcon",
-      "persona": "The Hungry Budgeter"
+      "year": "Freshman",
+      "major": "Economics"
     },
-    "brightspace": {
-      "assignments_due": [
-        { "title": "Art History Quiz", "due": "2026-02-20T12:00:00Z", "priority": "Low" }
-      ]
-    },
-    "meal_plan": {
-      "swipes_remaining": 2,
-      "status": "Critical Warning",
-      "note": "Only 2 swipes left for 5 days!"
+    "platforms": {
+      "brightspace": {
+        "status": "Light Workload",
+        "weekly_tasks": [
+          { "type": "Quiz", "item": "Microeconomics Review", "due": "2026-02-20T10:00:00Z", "priority": "Low" }
+        ]
+      },
+      "albert": {
+        "exam_schedule": [],
+        "registration_status": "Registration Open",
+        "gpa": "3.50"
+      },
+      "meal_plan": {
+        "swipes": 2,
+        "campus_dirhams": 10.50,
+        "flex_falcons": 5.00,
+        "analysis": "CRITICAL: Low Funds"
+      },
+      "student_portal": {
+        "notifications": [
+          { "title": "Free Pizza @ Student Council", "date": "2026-02-16", "location": "Campus Center" }
+        ]
+      }
     }
-  },
-  {
-    "id": "student_03",
-    "profile": {
-      "name": "Sam Falcon",
-      "persona": "The Balanced Student"
-    },
-    "brightspace": {
-      "assignments_due": [
-        { "title": "Philosophy Reading", "due": "2026-02-19T10:00:00Z", "priority": "Medium" }
-      ]
-    },
-    "meal_plan": {
-      "swipes_remaining": 9,
-      "status": "On Track"
-    },
-    "campus_events": [
-      { "title": "Karak Night", "time": "2026-02-18T20:00:00Z", "location": "East Plaza" }
-    ]
   }
 ]
