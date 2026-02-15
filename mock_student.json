@@ -1,0 +1,57 @@
+[
+  {
+    "id": "student_01",
+    "profile": {
+      "name": "Alex Falcon",
+      "persona": "The Overwhelmed Academic"
+    },
+    "brightspace": {
+      "assignments_due": [
+        { "title": "Math Problem Set", "due": "2026-02-16T10:00:00Z", "priority": "High" },
+        { "title": "History Essay", "due": "2026-02-16T23:59:00Z", "priority": "High" },
+        { "title": "Physics Lab", "due": "2026-02-17T09:00:00Z", "priority": "Medium" },
+        { "title": "CS Project", "due": "2026-02-18T23:59:00Z", "priority": "High" }
+      ]
+    },
+    "meal_plan": {
+      "swipes_remaining": 12,
+      "status": "Safe"
+    }
+  },
+  {
+    "id": "student_02",
+    "profile": {
+      "name": "Jane Falcon",
+      "persona": "The Hungry Budgeter"
+    },
+    "brightspace": {
+      "assignments_due": [
+        { "title": "Art History Quiz", "due": "2026-02-20T12:00:00Z", "priority": "Low" }
+      ]
+    },
+    "meal_plan": {
+      "swipes_remaining": 2,
+      "status": "Critical Warning",
+      "note": "Only 2 swipes left for 5 days!"
+    }
+  },
+  {
+    "id": "student_03",
+    "profile": {
+      "name": "Sam Falcon",
+      "persona": "The Balanced Student"
+    },
+    "brightspace": {
+      "assignments_due": [
+        { "title": "Philosophy Reading", "due": "2026-02-19T10:00:00Z", "priority": "Medium" }
+      ]
+    },
+    "meal_plan": {
+      "swipes_remaining": 9,
+      "status": "On Track"
+    },
+    "campus_events": [
+      { "title": "Karak Night", "time": "2026-02-18T20:00:00Z", "location": "East Plaza" }
+    ]
+  }
+]
