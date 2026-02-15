@@ -1,67 +1,32 @@
 [
   {
-    "email": "alex_stressed@nyu.edu",
-    "profile": {
-      "name": "Alex Falcon",
-      "year": "Junior",
-      "major": "Computer Science"
-    },
+    "email": "alex@nyu.edu",
+    "name": "Alex Falcon",
     "platforms": {
-      "brightspace": {
-        "status": "High Workload",
-        "weekly_tasks": [
-          { "type": "Assignment", "item": "Operating Systems Lab", "due": "2026-02-17T23:59:00Z", "priority": "Urgent" },
-          { "type": "Reading", "item": "Distributed Systems Ch. 4", "course": "CS-301", "status": "Not Started" }
-        ]
-      },
-      "albert": {
-        "exam_schedule": [{ "course": "Discrete Math", "date": "2026-03-12", "location": "A6-001" }],
-        "registration_status": "Holds: None",
-        "gpa": "3.85"
-      },
-      "meal_plan": {
-        "swipes": 12,
-        "campus_dirhams": 345.00,
-        "flex_falcons": 84.00,
-        "analysis": "On Track"
-      },
-      "student_portal": {
-        "notifications": [
-          { "title": "Career Fair Prep", "date": "2026-02-18", "location": "C2" }
-        ]
-      }
+      "brightspace": { "tasks": ["Lab 1", "Reading 2"] },
+      "albert": { "exams": ["Discrete Math"] },
+      "meal_plan": { "swipes": 12, "dirhams": 345 },
+      "student_portal": { "events": ["Career Fair"] }
     }
   },
   {
-    "email": "jane_hungry@nyu.edu",
-    "profile": {
-      "name": "Jane Falcon",
-      "year": "Freshman",
-      "major": "Economics"
-    },
+    "email": "jane@nyu.edu",
+    "name": "Jane Falcon",
     "platforms": {
-      "brightspace": {
-        "status": "Light Workload",
-        "weekly_tasks": [
-          { "type": "Quiz", "item": "Microeconomics Review", "due": "2026-02-20T10:00:00Z", "priority": "Low" }
-        ]
-      },
-      "albert": {
-        "exam_schedule": [],
-        "registration_status": "Registration Open",
-        "gpa": "3.50"
-      },
-      "meal_plan": {
-        "swipes": 2,
-        "campus_dirhams": 10.50,
-        "flex_falcons": 5.00,
-        "analysis": "CRITICAL: Low Funds"
-      },
-      "student_portal": {
-        "notifications": [
-          { "title": "Free Pizza @ Student Council", "date": "2026-02-16", "location": "Campus Center" }
-        ]
-      }
+      "brightspace": { "tasks": ["Essay 1"] },
+      "albert": { "exams": ["Macroeconomics"] },
+      "meal_plan": { "swipes": 2, "dirhams": 10 },
+      "student_portal": { "events": ["Free Pizza Night"] }
+    }
+  },
+  {
+    "email": "sam@nyu.edu",
+    "name": "Sam Falcon",
+    "platforms": {
+      "brightspace": { "tasks": ["Review Quiz"] },
+      "albert": { "exams": [] },
+      "meal_plan": { "swipes": 20, "dirhams": 500 },
+      "student_portal": { "events": ["Basketball Game"] }
     }
   }
 ]
